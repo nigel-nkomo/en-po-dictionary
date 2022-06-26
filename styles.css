@@ -20,7 +20,7 @@ input{
 }
 
 .header{
-  width: 90%;
+  width: 60%;
   margin: 40px auto 0px;
   border-radius: 8px 8px 0px 0px;
   text-align: center;
@@ -30,7 +30,7 @@ input{
 }
 
 .wrapper{
-  width: 90%;
+  width: 60%;
   margin: 0px auto;
   border: 1px solid gray;
 }
