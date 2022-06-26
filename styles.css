@@ -1,0 +1,106 @@
+body{
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+}
+
+input{
+  background-color: black;
+  color: white;
+}
+
+#word_list{
+  color: black;
+}
+}
+
+.header{
+  width: 60%;
+  margin: 40px auto 0px;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+  color: white;
+  background-color: #4E9F3D;
+  border: 1px solid gray;
+}
+
+.wrapper{
+  width: 60%;
+  margin: 0px auto;
+  border: 1px solid gray;
+}
+
+.wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.words{
+  width: 29%;
+  background: #D8E9A8;
+  padding-top: 10px;
+  float:  left;
+}
+
+.word{
+  width: 60%;
+  float: left;
+  padding-left: 10px;
+}
+
+#word_list{
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+li{
+  list-style-type: none;
+  line-height: 1.5;
+
+}
+
+li:hover{
+  cursor: pointer;
+  color: #4E9F3D;
+}
+
+ul{
+  margin-left: 0px;
+}
+
+h3{
+  color: #4E9F3D;
+}
+
+#search{
+    width: 85%;
+    padding: 5px;
+    height: 13px;
+}
+
+button{
+  color: white;
+  min-height: 25px;
+  min-width: 60px;
+  background-color: #4E9F3D;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Roboto';
+  top: 50%;
+
+}
+
+button:hover{
+  background-color: #395c55;
+}
+
+input{
+  font-family: 'Roboto';
+}
